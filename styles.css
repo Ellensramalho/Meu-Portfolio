@@ -148,7 +148,7 @@ header{
 .titulo-sobre-mim,
 .texto-sobre-mim {
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .sobre-mim img { 
