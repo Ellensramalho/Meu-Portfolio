@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,133 +8,153 @@
     <link rel="stylesheet" href="styles.css">
     <title>Ellen Ramalho</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <button class = "botao">Sobre mim</button>
-            <button class = "botao">Minhas habilidades</button>
-            <button class = "botao">Projetos</button>
+            <button class="botao" onclick="document.getElementById('SM').scrollIntoView({ behavior: 'smooth' })">Sobre
+                mim</button>
+            <button class="botao" onclick="document.getElementById('MH').scrollIntoView({ behavior: 'smooth' })">Minhas
+                habilidades</button>
+            <button class="botao" onclick="document.getElementById('MP').scrollIntoView({ behavior: 'smooth' })">Meus
+                projetos</button>
+
         </nav>
     </header>
-        <div class ="container1">
-        <h1 class ="titulo1">Ellen Ramalho</h1>
-        <h2 class= titulo2>Analista de qualidade e desenvolvedora</h2>
-        <p class = "texto1">Venha conhecer minha trajetória acadêmica e profissional. Formada em Ciência da Computação, sou analista de qualidade e desenvolvedora, trabalhando para soluções confiáveis e eficientes.</p>
-       <div class = "botoes">
-        <button class="botao2" onclick="window.open('./Currículo/Ellen Ramalho - currículo.pdf', '_blank')">Currículo</button>
-        <button class="botao2" onclick="window.open('https://wa.me/5583996040981', '_blank')">Contato</button>
+    <div class="container1">
+        <h1 class="titulo1">Ellen Ramalho</h1>
+        <h2 class=titulo2>Analista de qualidade e desenvolvedora</h2>
+        <p class="texto1">Venha conhecer minha trajetória acadêmica e profissional. Formada em Ciência da Computação,
+            sou analista de qualidade e desenvolvedora, trabalhando para soluções confiáveis e eficientes.</p>
+        <div class="botoes">
+            <button class="botao2"
+                onclick="window.open('./Currículo/Ellen Ramalho - currículo.pdf', '_blank')">Currículo</button>
+            <button class="botao2" onclick="window.open('https://wa.me/5583996040981', '_blank')">Contato</button>
         </div>
-        <div class = links-imagens>
-        <a class ="contatos" href="https://github.com/Ellensramalho"><img src ="./Ícones/github_3291695.png" alt="GitHub"></a>
-        <a class ="contatos" href="https://www.linkedin.com/in/ellen-santos-ramalho/"><img src ="./Ícones/linkedin_3670167.png" alt="Linkedin"></a>
+        <div class=links-imagens>
+            <a class="contatos" href="https://github.com/Ellensramalho"><img src="./Ícones/github_3291695.png"
+                    alt="GitHub"></a>
+            <a class="contatos" href="https://www.linkedin.com/in/ellen-santos-ramalho/"><img
+                    src="./Ícones/linkedin_3670167.png" alt="Linkedin"></a>
+        </div>
+    </div>
+    <section class="sobre-mim" id="SM">
+        <img src="./Imagens/Sobre-mim.jpeg" alt="Sobre mim">
+        <h1 class="titulo-sobre-mim">Sobre mim</h1>
+        <p class="texto-sobre-mim">Meu nome é Ellen, sou cientista da computação pela Universidade Estadual da Paraíba.
+            Gosto de design, gosto de desenvolvimento de software e de ver como os códigos podem criar coisas incríveis.
+            Tenho experiência profissional na área de qualidade de software e, academicamente, atuei com desenvolvimento
+            de sistemas.Além da tecnologia, gosto de ler, assistir séries, filmes e reality shows, estar com minha
+            família, cuidar dos animais e ter meu tempo com Deus. São essas coisas que me completam e me ajudam a manter
+            o equilíbrio entre o que faço e quem sou.</p>
+    </section>
+    <section class="habilidades">
+        <div class="Habilidades" id="MH">
+            <h1 class="Tecnologias">MINHAS HABILIDADES PROFISSIONAIS</h1>
+            <h2 class="Conhecimentos">Tecnologias com as quais possuo conhecimentos e habilidades para desenvolvimento
+                de projetos, incluindo algumas que ainda estão em fase de aprendizado.</h2>
+            <div class="principal">
+                <div class="card">
+                    <img src="./Imagens/py.webp" alt="Python Logo">
+                    <span>Python</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/C.png" alt="C Logo">
+                    <span>C</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/js.jpg" alt="JavaScript Logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/azure.png" alt="Azure Logo">
+                    <span>Azure</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/figma.avif" alt="Figma Logo">
+                    <span>Figma</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/K6.webp" alt="K6 Logo">
+                    <span>K6</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/postman.png" alt="Postman Logo">
+                    <span>Postman</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/cy.jpg" alt="Cypress Logo">
+                    <span>Cypress</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/html.png" alt="HTML Logo">
+                    <span>HTML</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/css.jpg" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/ps.png" alt="Photoshop Logo">
+                    <span>Photoshop</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/sql.png" alt="SQL Logo">
+                    <span>SQL</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/git.png" alt="Git Logo">
+                    <span>Git</span>
+                </div>
+                <div class="card">
+                    <img src="./Imagens/jm.png" alt="JMeter Logo">
+                    <span>JMeter</span>
+                </div>
             </div>
         </div>
-    <section class = "sobre-mim">
-        <img src = "./Imagens/Sobre-mim.jpeg" alt="Sobre mim">
-        <h1 class="titulo-sobre-mim">Sobre mim</h1>
-        <p class="texto-sobre-mim">Meu nome é Ellen, sou cientista da computação pela Universidade Estadual da Paraíba. Gosto de design, gosto de desenvolvimento de software e de ver como os códigos podem criar coisas incríveis. Tenho experiência profissional na área de qualidade de software e, academicamente, atuei com desenvolvimento de sistemas.Além da tecnologia, gosto de ler, assistir séries, filmes e reality shows, estar com minha família, cuidar dos animais e ter meu tempo com Deus. São essas coisas que me completam e me ajudam a manter o equilíbrio entre o que faço e quem sou.</p>
     </section>
-    <section class = "habilidades">
-        <div class="Habilidades" id="H">
-        <h1 class="Tecnologias">MINHAS HABILIDADES PROFISSIONAIS</h1>
-        <h2 class="Conhecimentos">Tecnologias com as quais possuo conhecimentos e habilidades para desenvolvimento de projetos, incluindo algumas que ainda estão em fase de aprendizado.</h2>
-        <div class="principal">
-    <div class="card">
-        <img src="./Imagens/py.webp" alt="Python Logo">
-        <span>Python</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/C.png" alt="C Logo">
-        <span>C</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/js.jpg" alt="JavaScript Logo">
-        <span>JavaScript</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/azure.png" alt="Azure Logo">
-        <span>Azure</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/figma.avif" alt="Figma Logo">
-        <span>Figma</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/K6.webp" alt="K6 Logo">
-        <span>K6</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/postman.png" alt="Postman Logo">
-        <span>Postman</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/cy.jpg" alt="Cypress Logo">
-        <span>Cypress</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/html.png" alt="HTML Logo">
-        <span>HTML</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/css.jpg" alt="CSS Logo">
-        <span>CSS</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/ps.png" alt="Photoshop Logo">
-        <span>Photoshop</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/sql.png" alt="SQL Logo">
-        <span>SQL</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/git.png" alt="Git Logo">
-        <span>Git</span>
-    </div>
-    <div class="card">
-        <img src="./Imagens/jm.png" alt="JMeter Logo">
-        <span>JMeter</span>
-    </div>
-</div>
-    </div>
-    </section>
-<section class = "container">
-    <h1 class = "Projetos">Meus principais projetos</h1>
-        <div class ="Galeria">
+    <section class="container" id="MP">
+        <h1 class="Projetos">Meus principais projetos</h1>
+        <div class="Galeria">
             <div class="item">
-            <img src="./Imagens/Adrielly.png" alt="Portfólio de nutrição">
-            <div class="legenda">Portfólio de nutrição</div>
+                <a href="https://adriellycavalcante.vercel.app/" target="_blank" class="portfolio-link">
+                    <img src="./Imagens/Adrielly.png" alt="Portfólio de nutrição">
+                    <div class="legenda">Portfólio de nutrição</div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://emanuela-matias.vercel.app/" target="_blank" class="portfolio-link">
+                    <img src="./Imagens/Emanuela.png" alt="Portfólio de nutrição">
+                    <div class="legenda">Portfólio de nutrição</div>
+                </a>
+            </div>
+            <div class="item">
+                <img src="./Imagens/Pincel Mágico.png" alt="Pincel Mágico">
+                <div class="legenda">Pincel Mágico</div>
+            </div>
+            <div class="item">
+                <img src="./Imagens/StudyStrea.jpg" alt="Study Strea">
+                <div class="legenda">Study Strea</div>
+            </div>
+            <div class="item">
+                <img src="./Imagens/Dazzle.png" alt="Dazzle">
+                <div class="legenda">Dazzle</div>
+            </div>
         </div>
-        <div class="item">
-            <img src="./Imagens/Emanuela.png" alt="Portfólio de nutrição">
-            <div class="legenda">Portfólio de nutrição</div>
         </div>
-        <div class="item">
-            <img src="./Imagens/Pincel Mágico.png" alt="Pincel Mágico">
-            <div class="legenda">Pincel Mágico</div>
-        </div>
-        <div class="item">
-            <img src="./Imagens/StudyStrea.jpg" alt="Study Strea">
-            <div class="legenda">Study Strea</div>
-        </div>
-        <div class="item">
-            <img src="./Imagens/Dazzle.png" alt="Dazzle">
-            <div class="legenda">Dazzle</div>
-        </div>
-        </div>
-        </div>
-</section>
+    </section>
 
 </body>
 <footer class="footer">
-  <div class="footer-content">
-    <p>Email: <a href="mailto:ellensramalho@gmail.com">ellensramalho@gmail.com</a></p>
-    <p>Telefone: <a href="tel:+5583996040981">+55 83 99604-0981</a></p>
-  </div>
-  </div>
-  <div class="footer-bottom">
-    <p>Desenvolvido por Ellen Ramalho</p>
-    <p>© 2025 Todos os direitos reservados</p>
-  </div>
+    <div class="footer-content">
+        <p>Email: <a href="mailto:ellensramalho@gmail.com">ellensramalho@gmail.com</a></p>
+        <p>Telefone: <a href="tel:+5583996040981">+55 83 99604-0981</a></p>
+    </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Desenvolvido por Ellen Ramalho</p>
+        <p>© 2025 Todos os direitos reservados</p>
+    </div>
 </footer>
+
 </html>

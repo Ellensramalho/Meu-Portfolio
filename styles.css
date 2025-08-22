@@ -306,7 +306,7 @@ header{
     animation: scaleUp 0.8s ease forwards;
     position: relative;
     display: flex;
-    flex-direction: column; /* organiza imagem + legenda em coluna */
+    flex-direction: column; 
     height: 100%;  
 }
 
@@ -329,8 +329,18 @@ header{
     transform: scale(1.05);
 }
 
+
+.portfolio-link {
+  text-decoration: none; 
+  color: inherit;       
+  display: flex;         
+  flex-direction: column; 
+  height: 100%;           
+}
+
+
 .legenda {
-    margin-top: auto;
+    margin-top: auto; 
     color: #ffffff;
     padding: 12px;
     font-size: 1.1rem;
@@ -389,8 +399,94 @@ header{
   font-size: 14px;
   transition: color 0.4s ease, text-shadow 0.4s ease;
 }
+@media (max-width: 1024px) {
+    .titulo1 {
+        font-size: 32px;
+    }
+    .titulo2 {
+        font-size: 16px;
+        width: 80%;
+    }
+    .texto1 {
+        width: 80%;
+        font-size: 16px;
+    }
+}
 
-/* Responsivo */
+@media (max-width: 768px) {
+    header {
+        justify-content: center; 
+        height: auto;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .botao {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .titulo1 {
+        font-size: 28px;
+    }
+    .titulo2 {
+        font-size: 15px;
+        width: 90%;
+        white-space: normal; 
+        animation: none;    
+    }
+    .texto1 {
+        font-size: 15px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo1 {
+        font-size: 24px;
+    }
+    .titulo2 {
+        font-size: 14px;
+        width: 95%;
+    }
+    .texto1 {
+        font-size: 14px;
+        width: 95%;
+    }
+    .botoes {
+        flex-direction: column; 
+        gap: 12px;
+    }
+    .botao2 {
+        width: 100%; 
+    }
+}
+@media (max-width: 768px) {
+    .sobre-mim img {
+        width: 60%;     
+        max-width: 180px;
+    }
+    .titulo-sobre-mim {
+        font-size: 24px;
+    }
+    .texto-sobre-mim {
+        font-size: 16px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre-mim img {
+        width: 60%;     
+        max-width: 250px;
+    }
+    .titulo-sobre-mim {
+        font-size: 20px;
+    }
+    .texto-sobre-mim {
+        font-size: 15px;
+        width: 95%;
+        line-height: 1.4;
+    }
+}
 @media (max-width: 768px) {
   .footer-content p {
     font-size: 16px;
@@ -402,3 +498,4 @@ header{
     width: 60px;
   }
 }
+
