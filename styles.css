@@ -453,6 +453,7 @@ header{
         width: 95%;
     }
     .header {
+        margin-top: 10px;
         gap: 5px; 
         padding: 0 5px;
     }
