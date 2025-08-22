@@ -453,13 +453,10 @@ header{
         width: 95%;
     }
     .header {
-        margin-top: 10px;
-        gap: 5px; 
-        padding: 0 5px;
+        display: none;
     }
     .botao {
-        padding: 4px 6px;
-        font-size: 10px; 
+       display: none;
     }
 }
 @media (max-width: 768px) {
