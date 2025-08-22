@@ -423,6 +423,7 @@ header{
     .botao {
         font-size: 14px;
         padding: 6px 12px;
+        
     }
     .titulo1 {
         font-size: 28px;
@@ -451,13 +452,7 @@ header{
         font-size: 14px;
         width: 95%;
     }
-    .botoes {
-        flex-direction: column; 
-        gap: 12px;
-    }
-    .botao2 {
-        width: 100%; 
-    }
+    
 }
 @media (max-width: 768px) {
     .sobre-mim img {
@@ -470,6 +465,16 @@ header{
     .texto-sobre-mim {
         font-size: 16px;
         width: 90%;
+    }
+    .botoes {
+        gap: 10px;         
+        flex-wrap: nowrap; 
+        overflow-x: auto;  
+    }
+    .botao2 {
+        font-size: 14px;
+        padding: 8px 12px; 
+        flex-shrink: 0;    
     }
 }
 
