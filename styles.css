@@ -453,12 +453,12 @@ header{
         width: 95%;
     }
     .header {
-        gap: 8px; 
-        padding: 0 8px;
+        gap: 5px; 
+        padding: 0 5px;
     }
     .botao {
-        padding: 6px 8px;
-        font-size: 14px; 
+        padding: 4px 6px;
+        font-size: 10px; 
     }
 }
 @media (max-width: 768px) {
