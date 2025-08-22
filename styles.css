@@ -452,7 +452,14 @@ header{
         font-size: 14px;
         width: 95%;
     }
-    
+    .header {
+        gap: 8px; 
+        padding: 0 8px;
+    }
+    .botao {
+        padding: 6px 8px;
+        font-size: 14px; 
+    }
 }
 @media (max-width: 768px) {
     .sobre-mim img {
